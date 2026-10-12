@@ -1,7 +1,8 @@
 [build-system]
 requires = ["hatchling>=1.24"]
 build-backend = "hatchling.build"
-
+[tool.vercel]
+entrypoint = "muse2api.app:app"
 [project]
 name = "muse2api"
 version = "0.2.0"
